@@ -6,7 +6,7 @@ const Home = () => {
     <div className="hero">
       <div className="card bg-dark text-white border-0">
         <img
-          src="/assets/bg1.jpg"
+          src="/assets/bg2.jpg"
           className="card-img"
           alt="Backgroung"
           height="550px"
