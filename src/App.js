@@ -6,6 +6,10 @@ import Products from "./componenet/Products";
 import Product from "./componenet/Product";
 import Cart from "./componenet/Cart";
 import Checkout from "./componenet/Checkout";
+import About from "./componenet/About";
+import Contact from "./componenet/Contact";
+// import Login from "./componenet/Login";
+// import Signup from "./componenet/Signup";
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
         <Route exact path="/products/:id" component={Product} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        {/* <Route exact path="/login" component={Login} />
+        <Route exact path="/register" component={Signup} /> */}
       </Switch>
     </div>
   );
