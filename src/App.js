@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "./componenet/Navbar";
 import "./App.css";
 import Home from "./componenet/Home";
@@ -8,8 +9,8 @@ import Cart from "./componenet/Cart";
 import Checkout from "./componenet/Checkout";
 import About from "./componenet/About";
 import Contact from "./componenet/Contact";
-// import Login from "./componenet/Login";
-// import Signup from "./componenet/Signup";
+import Login from "./componenet/Login";
+import Signup from "./componenet/Signup";
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        {/* <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Signup} /> */}
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={Signup} />
       </Switch>
     </div>
   );

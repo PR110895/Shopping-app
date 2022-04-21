@@ -22,6 +22,7 @@ const handleCart = (state = cart, action) => {
           },
         ];
       }
+      // eslint-disable-next-line
       break;
     ///add item
     case "DELITEM":
@@ -34,10 +35,12 @@ const handleCart = (state = cart, action) => {
           x.id === product.id ? { ...x, qty: x.qty - 1 } : x
         );
       }
+      // eslint-disable-next-line
       break;
 
     default:
       return state;
+      // eslint-disable-next-line
       break;
   }
 };
