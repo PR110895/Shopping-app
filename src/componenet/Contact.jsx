@@ -15,8 +15,8 @@ function Contact() {
             <img
               src="/assets/Contact.jpg"
               alt=" Contact Us"
-              height="400px"
-              width="400px"
+              height="300px"
+              width="300px"
             />
           </div>
           <div className="col-md-6">
